@@ -1,0 +1,56 @@
+@import "compass/reset";
+@import "compass/css3/transition";
+
+$page-width: 1080px;
+$page-padding: 100px;
+$dots-per-row: 10;
+$dot-size: 20px;
+
+$gap-between-dots: ($page-width - 2*$page-padding) / ($dots-per-row - 1);
+
+.container {
+	width: 1080px;
+	height: 1920px;
+	box-sizing: border-box;
+	background: white;
+	position: absolute;
+}
+
+div.dot {
+	position: inherit;
+	width: 0px;
+	height: 0px;
+	top: 0px;
+	left: 0px;
+	@include transition-duration(0.5s);
+	@include transition-property(all);
+	@include transition-timing-function(ease-in-out);
+	text-align: center;
+	background: red;
+	border-radius: 100%;
+
+	@for $i from 0 through 100 {
+		&:nth-child(#{$i+1}) {
+
+			background: rgba(0, 0, 0, $i/100 );
+
+			left: ( ($i%10) * $gap-between-dots) + $page-padding;
+			top: $gap-between-dots * floor($i / 10) + $page-padding;
+
+			@include transition-delay(#{$i*0.15}s);
+		}
+	}
+}
+
+
+body.active .dot {
+	width: $dot-size;
+	height: $dot-size;
+	@for $i from 0 through 100 {
+		&:nth-child(#{$i+1}) {
+			left: ( ($i%10) * $gap-between-dots) + $page-padding - $dot-size/2;
+			top: $gap-between-dots * floor($i / 10) + $page-padding - $dot-size/2;
+		}
+	}
+}
+

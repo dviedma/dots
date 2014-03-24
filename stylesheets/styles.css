@@ -1,0 +1,1618 @@
+/* line 5, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/styles.scss */
+.container {
+  width: 1080px;
+  height: 1920px;
+  box-sizing: border-box;
+  background: white;
+  position: absolute;
+}
+
+/* line 19, ../sass/styles.scss */
+div.dot {
+  position: inherit;
+  width: 0px;
+  height: 0px;
+  top: 0px;
+  left: 0px;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  text-align: center;
+  background: red;
+  border-radius: 100%;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(1) {
+  background: transparent;
+  left: 100px;
+  top: 100px;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(2) {
+  background: rgba(0, 0, 0, 0.01);
+  left: 197.77778px;
+  top: 100px;
+  -moz-transition-delay: 0.15s;
+  -o-transition-delay: 0.15s;
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(3) {
+  background: rgba(0, 0, 0, 0.02);
+  left: 295.55556px;
+  top: 100px;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(4) {
+  background: rgba(0, 0, 0, 0.03);
+  left: 393.33333px;
+  top: 100px;
+  -moz-transition-delay: 0.45s;
+  -o-transition-delay: 0.45s;
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(5) {
+  background: rgba(0, 0, 0, 0.04);
+  left: 491.11111px;
+  top: 100px;
+  -moz-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(6) {
+  background: rgba(0, 0, 0, 0.05);
+  left: 588.88889px;
+  top: 100px;
+  -moz-transition-delay: 0.75s;
+  -o-transition-delay: 0.75s;
+  -webkit-transition-delay: 0.75s;
+  transition-delay: 0.75s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(7) {
+  background: rgba(0, 0, 0, 0.06);
+  left: 686.66667px;
+  top: 100px;
+  -moz-transition-delay: 0.9s;
+  -o-transition-delay: 0.9s;
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(8) {
+  background: rgba(0, 0, 0, 0.07);
+  left: 784.44444px;
+  top: 100px;
+  -moz-transition-delay: 1.05s;
+  -o-transition-delay: 1.05s;
+  -webkit-transition-delay: 1.05s;
+  transition-delay: 1.05s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(9) {
+  background: rgba(0, 0, 0, 0.08);
+  left: 882.22222px;
+  top: 100px;
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(10) {
+  background: rgba(0, 0, 0, 0.09);
+  left: 980px;
+  top: 100px;
+  -moz-transition-delay: 1.35s;
+  -o-transition-delay: 1.35s;
+  -webkit-transition-delay: 1.35s;
+  transition-delay: 1.35s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(11) {
+  background: rgba(0, 0, 0, 0.1);
+  left: 100px;
+  top: 197.77778px;
+  -moz-transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(12) {
+  background: rgba(0, 0, 0, 0.11);
+  left: 197.77778px;
+  top: 197.77778px;
+  -moz-transition-delay: 1.65s;
+  -o-transition-delay: 1.65s;
+  -webkit-transition-delay: 1.65s;
+  transition-delay: 1.65s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(13) {
+  background: rgba(0, 0, 0, 0.12);
+  left: 295.55556px;
+  top: 197.77778px;
+  -moz-transition-delay: 1.8s;
+  -o-transition-delay: 1.8s;
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(14) {
+  background: rgba(0, 0, 0, 0.13);
+  left: 393.33333px;
+  top: 197.77778px;
+  -moz-transition-delay: 1.95s;
+  -o-transition-delay: 1.95s;
+  -webkit-transition-delay: 1.95s;
+  transition-delay: 1.95s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(15) {
+  background: rgba(0, 0, 0, 0.14);
+  left: 491.11111px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.1s;
+  -o-transition-delay: 2.1s;
+  -webkit-transition-delay: 2.1s;
+  transition-delay: 2.1s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(16) {
+  background: rgba(0, 0, 0, 0.15);
+  left: 588.88889px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.25s;
+  -o-transition-delay: 2.25s;
+  -webkit-transition-delay: 2.25s;
+  transition-delay: 2.25s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(17) {
+  background: rgba(0, 0, 0, 0.16);
+  left: 686.66667px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.4s;
+  -o-transition-delay: 2.4s;
+  -webkit-transition-delay: 2.4s;
+  transition-delay: 2.4s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(18) {
+  background: rgba(0, 0, 0, 0.17);
+  left: 784.44444px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.55s;
+  -o-transition-delay: 2.55s;
+  -webkit-transition-delay: 2.55s;
+  transition-delay: 2.55s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(19) {
+  background: rgba(0, 0, 0, 0.18);
+  left: 882.22222px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.7s;
+  -o-transition-delay: 2.7s;
+  -webkit-transition-delay: 2.7s;
+  transition-delay: 2.7s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(20) {
+  background: rgba(0, 0, 0, 0.19);
+  left: 980px;
+  top: 197.77778px;
+  -moz-transition-delay: 2.85s;
+  -o-transition-delay: 2.85s;
+  -webkit-transition-delay: 2.85s;
+  transition-delay: 2.85s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(21) {
+  background: rgba(0, 0, 0, 0.2);
+  left: 100px;
+  top: 295.55556px;
+  -moz-transition-delay: 3s;
+  -o-transition-delay: 3s;
+  -webkit-transition-delay: 3s;
+  transition-delay: 3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(22) {
+  background: rgba(0, 0, 0, 0.21);
+  left: 197.77778px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.15s;
+  -o-transition-delay: 3.15s;
+  -webkit-transition-delay: 3.15s;
+  transition-delay: 3.15s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(23) {
+  background: rgba(0, 0, 0, 0.22);
+  left: 295.55556px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.3s;
+  -o-transition-delay: 3.3s;
+  -webkit-transition-delay: 3.3s;
+  transition-delay: 3.3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(24) {
+  background: rgba(0, 0, 0, 0.23);
+  left: 393.33333px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.45s;
+  -o-transition-delay: 3.45s;
+  -webkit-transition-delay: 3.45s;
+  transition-delay: 3.45s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(25) {
+  background: rgba(0, 0, 0, 0.24);
+  left: 491.11111px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.6s;
+  -o-transition-delay: 3.6s;
+  -webkit-transition-delay: 3.6s;
+  transition-delay: 3.6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(26) {
+  background: rgba(0, 0, 0, 0.25);
+  left: 588.88889px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.75s;
+  -o-transition-delay: 3.75s;
+  -webkit-transition-delay: 3.75s;
+  transition-delay: 3.75s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(27) {
+  background: rgba(0, 0, 0, 0.26);
+  left: 686.66667px;
+  top: 295.55556px;
+  -moz-transition-delay: 3.9s;
+  -o-transition-delay: 3.9s;
+  -webkit-transition-delay: 3.9s;
+  transition-delay: 3.9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(28) {
+  background: rgba(0, 0, 0, 0.27);
+  left: 784.44444px;
+  top: 295.55556px;
+  -moz-transition-delay: 4.05s;
+  -o-transition-delay: 4.05s;
+  -webkit-transition-delay: 4.05s;
+  transition-delay: 4.05s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(29) {
+  background: rgba(0, 0, 0, 0.28);
+  left: 882.22222px;
+  top: 295.55556px;
+  -moz-transition-delay: 4.2s;
+  -o-transition-delay: 4.2s;
+  -webkit-transition-delay: 4.2s;
+  transition-delay: 4.2s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(30) {
+  background: rgba(0, 0, 0, 0.29);
+  left: 980px;
+  top: 295.55556px;
+  -moz-transition-delay: 4.35s;
+  -o-transition-delay: 4.35s;
+  -webkit-transition-delay: 4.35s;
+  transition-delay: 4.35s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(31) {
+  background: rgba(0, 0, 0, 0.3);
+  left: 100px;
+  top: 393.33333px;
+  -moz-transition-delay: 4.5s;
+  -o-transition-delay: 4.5s;
+  -webkit-transition-delay: 4.5s;
+  transition-delay: 4.5s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(32) {
+  background: rgba(0, 0, 0, 0.31);
+  left: 197.77778px;
+  top: 393.33333px;
+  -moz-transition-delay: 4.65s;
+  -o-transition-delay: 4.65s;
+  -webkit-transition-delay: 4.65s;
+  transition-delay: 4.65s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(33) {
+  background: rgba(0, 0, 0, 0.32);
+  left: 295.55556px;
+  top: 393.33333px;
+  -moz-transition-delay: 4.8s;
+  -o-transition-delay: 4.8s;
+  -webkit-transition-delay: 4.8s;
+  transition-delay: 4.8s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(34) {
+  background: rgba(0, 0, 0, 0.33);
+  left: 393.33333px;
+  top: 393.33333px;
+  -moz-transition-delay: 4.95s;
+  -o-transition-delay: 4.95s;
+  -webkit-transition-delay: 4.95s;
+  transition-delay: 4.95s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(35) {
+  background: rgba(0, 0, 0, 0.34);
+  left: 491.11111px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.1s;
+  -o-transition-delay: 5.1s;
+  -webkit-transition-delay: 5.1s;
+  transition-delay: 5.1s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(36) {
+  background: rgba(0, 0, 0, 0.35);
+  left: 588.88889px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.25s;
+  -o-transition-delay: 5.25s;
+  -webkit-transition-delay: 5.25s;
+  transition-delay: 5.25s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(37) {
+  background: rgba(0, 0, 0, 0.36);
+  left: 686.66667px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.4s;
+  -o-transition-delay: 5.4s;
+  -webkit-transition-delay: 5.4s;
+  transition-delay: 5.4s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(38) {
+  background: rgba(0, 0, 0, 0.37);
+  left: 784.44444px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.55s;
+  -o-transition-delay: 5.55s;
+  -webkit-transition-delay: 5.55s;
+  transition-delay: 5.55s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(39) {
+  background: rgba(0, 0, 0, 0.38);
+  left: 882.22222px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.7s;
+  -o-transition-delay: 5.7s;
+  -webkit-transition-delay: 5.7s;
+  transition-delay: 5.7s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(40) {
+  background: rgba(0, 0, 0, 0.39);
+  left: 980px;
+  top: 393.33333px;
+  -moz-transition-delay: 5.85s;
+  -o-transition-delay: 5.85s;
+  -webkit-transition-delay: 5.85s;
+  transition-delay: 5.85s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(41) {
+  background: rgba(0, 0, 0, 0.4);
+  left: 100px;
+  top: 491.11111px;
+  -moz-transition-delay: 6s;
+  -o-transition-delay: 6s;
+  -webkit-transition-delay: 6s;
+  transition-delay: 6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(42) {
+  background: rgba(0, 0, 0, 0.41);
+  left: 197.77778px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.15s;
+  -o-transition-delay: 6.15s;
+  -webkit-transition-delay: 6.15s;
+  transition-delay: 6.15s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(43) {
+  background: rgba(0, 0, 0, 0.42);
+  left: 295.55556px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.3s;
+  -o-transition-delay: 6.3s;
+  -webkit-transition-delay: 6.3s;
+  transition-delay: 6.3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(44) {
+  background: rgba(0, 0, 0, 0.43);
+  left: 393.33333px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.45s;
+  -o-transition-delay: 6.45s;
+  -webkit-transition-delay: 6.45s;
+  transition-delay: 6.45s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(45) {
+  background: rgba(0, 0, 0, 0.44);
+  left: 491.11111px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.6s;
+  -o-transition-delay: 6.6s;
+  -webkit-transition-delay: 6.6s;
+  transition-delay: 6.6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(46) {
+  background: rgba(0, 0, 0, 0.45);
+  left: 588.88889px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.75s;
+  -o-transition-delay: 6.75s;
+  -webkit-transition-delay: 6.75s;
+  transition-delay: 6.75s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(47) {
+  background: rgba(0, 0, 0, 0.46);
+  left: 686.66667px;
+  top: 491.11111px;
+  -moz-transition-delay: 6.9s;
+  -o-transition-delay: 6.9s;
+  -webkit-transition-delay: 6.9s;
+  transition-delay: 6.9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(48) {
+  background: rgba(0, 0, 0, 0.47);
+  left: 784.44444px;
+  top: 491.11111px;
+  -moz-transition-delay: 7.05s;
+  -o-transition-delay: 7.05s;
+  -webkit-transition-delay: 7.05s;
+  transition-delay: 7.05s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(49) {
+  background: rgba(0, 0, 0, 0.48);
+  left: 882.22222px;
+  top: 491.11111px;
+  -moz-transition-delay: 7.2s;
+  -o-transition-delay: 7.2s;
+  -webkit-transition-delay: 7.2s;
+  transition-delay: 7.2s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(50) {
+  background: rgba(0, 0, 0, 0.49);
+  left: 980px;
+  top: 491.11111px;
+  -moz-transition-delay: 7.35s;
+  -o-transition-delay: 7.35s;
+  -webkit-transition-delay: 7.35s;
+  transition-delay: 7.35s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(51) {
+  background: rgba(0, 0, 0, 0.5);
+  left: 100px;
+  top: 588.88889px;
+  -moz-transition-delay: 7.5s;
+  -o-transition-delay: 7.5s;
+  -webkit-transition-delay: 7.5s;
+  transition-delay: 7.5s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(52) {
+  background: rgba(0, 0, 0, 0.51);
+  left: 197.77778px;
+  top: 588.88889px;
+  -moz-transition-delay: 7.65s;
+  -o-transition-delay: 7.65s;
+  -webkit-transition-delay: 7.65s;
+  transition-delay: 7.65s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(53) {
+  background: rgba(0, 0, 0, 0.52);
+  left: 295.55556px;
+  top: 588.88889px;
+  -moz-transition-delay: 7.8s;
+  -o-transition-delay: 7.8s;
+  -webkit-transition-delay: 7.8s;
+  transition-delay: 7.8s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(54) {
+  background: rgba(0, 0, 0, 0.53);
+  left: 393.33333px;
+  top: 588.88889px;
+  -moz-transition-delay: 7.95s;
+  -o-transition-delay: 7.95s;
+  -webkit-transition-delay: 7.95s;
+  transition-delay: 7.95s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(55) {
+  background: rgba(0, 0, 0, 0.54);
+  left: 491.11111px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.1s;
+  -o-transition-delay: 8.1s;
+  -webkit-transition-delay: 8.1s;
+  transition-delay: 8.1s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(56) {
+  background: rgba(0, 0, 0, 0.55);
+  left: 588.88889px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.25s;
+  -o-transition-delay: 8.25s;
+  -webkit-transition-delay: 8.25s;
+  transition-delay: 8.25s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(57) {
+  background: rgba(0, 0, 0, 0.56);
+  left: 686.66667px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.4s;
+  -o-transition-delay: 8.4s;
+  -webkit-transition-delay: 8.4s;
+  transition-delay: 8.4s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(58) {
+  background: rgba(0, 0, 0, 0.57);
+  left: 784.44444px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.55s;
+  -o-transition-delay: 8.55s;
+  -webkit-transition-delay: 8.55s;
+  transition-delay: 8.55s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(59) {
+  background: rgba(0, 0, 0, 0.58);
+  left: 882.22222px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.7s;
+  -o-transition-delay: 8.7s;
+  -webkit-transition-delay: 8.7s;
+  transition-delay: 8.7s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(60) {
+  background: rgba(0, 0, 0, 0.59);
+  left: 980px;
+  top: 588.88889px;
+  -moz-transition-delay: 8.85s;
+  -o-transition-delay: 8.85s;
+  -webkit-transition-delay: 8.85s;
+  transition-delay: 8.85s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(61) {
+  background: rgba(0, 0, 0, 0.6);
+  left: 100px;
+  top: 686.66667px;
+  -moz-transition-delay: 9s;
+  -o-transition-delay: 9s;
+  -webkit-transition-delay: 9s;
+  transition-delay: 9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(62) {
+  background: rgba(0, 0, 0, 0.61);
+  left: 197.77778px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.15s;
+  -o-transition-delay: 9.15s;
+  -webkit-transition-delay: 9.15s;
+  transition-delay: 9.15s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(63) {
+  background: rgba(0, 0, 0, 0.62);
+  left: 295.55556px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.3s;
+  -o-transition-delay: 9.3s;
+  -webkit-transition-delay: 9.3s;
+  transition-delay: 9.3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(64) {
+  background: rgba(0, 0, 0, 0.63);
+  left: 393.33333px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.45s;
+  -o-transition-delay: 9.45s;
+  -webkit-transition-delay: 9.45s;
+  transition-delay: 9.45s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(65) {
+  background: rgba(0, 0, 0, 0.64);
+  left: 491.11111px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.6s;
+  -o-transition-delay: 9.6s;
+  -webkit-transition-delay: 9.6s;
+  transition-delay: 9.6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(66) {
+  background: rgba(0, 0, 0, 0.65);
+  left: 588.88889px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.75s;
+  -o-transition-delay: 9.75s;
+  -webkit-transition-delay: 9.75s;
+  transition-delay: 9.75s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(67) {
+  background: rgba(0, 0, 0, 0.66);
+  left: 686.66667px;
+  top: 686.66667px;
+  -moz-transition-delay: 9.9s;
+  -o-transition-delay: 9.9s;
+  -webkit-transition-delay: 9.9s;
+  transition-delay: 9.9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(68) {
+  background: rgba(0, 0, 0, 0.67);
+  left: 784.44444px;
+  top: 686.66667px;
+  -moz-transition-delay: 10.05s;
+  -o-transition-delay: 10.05s;
+  -webkit-transition-delay: 10.05s;
+  transition-delay: 10.05s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(69) {
+  background: rgba(0, 0, 0, 0.68);
+  left: 882.22222px;
+  top: 686.66667px;
+  -moz-transition-delay: 10.2s;
+  -o-transition-delay: 10.2s;
+  -webkit-transition-delay: 10.2s;
+  transition-delay: 10.2s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(70) {
+  background: rgba(0, 0, 0, 0.69);
+  left: 980px;
+  top: 686.66667px;
+  -moz-transition-delay: 10.35s;
+  -o-transition-delay: 10.35s;
+  -webkit-transition-delay: 10.35s;
+  transition-delay: 10.35s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(71) {
+  background: rgba(0, 0, 0, 0.7);
+  left: 100px;
+  top: 784.44444px;
+  -moz-transition-delay: 10.5s;
+  -o-transition-delay: 10.5s;
+  -webkit-transition-delay: 10.5s;
+  transition-delay: 10.5s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(72) {
+  background: rgba(0, 0, 0, 0.71);
+  left: 197.77778px;
+  top: 784.44444px;
+  -moz-transition-delay: 10.65s;
+  -o-transition-delay: 10.65s;
+  -webkit-transition-delay: 10.65s;
+  transition-delay: 10.65s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(73) {
+  background: rgba(0, 0, 0, 0.72);
+  left: 295.55556px;
+  top: 784.44444px;
+  -moz-transition-delay: 10.8s;
+  -o-transition-delay: 10.8s;
+  -webkit-transition-delay: 10.8s;
+  transition-delay: 10.8s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(74) {
+  background: rgba(0, 0, 0, 0.73);
+  left: 393.33333px;
+  top: 784.44444px;
+  -moz-transition-delay: 10.95s;
+  -o-transition-delay: 10.95s;
+  -webkit-transition-delay: 10.95s;
+  transition-delay: 10.95s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(75) {
+  background: rgba(0, 0, 0, 0.74);
+  left: 491.11111px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.1s;
+  -o-transition-delay: 11.1s;
+  -webkit-transition-delay: 11.1s;
+  transition-delay: 11.1s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(76) {
+  background: rgba(0, 0, 0, 0.75);
+  left: 588.88889px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.25s;
+  -o-transition-delay: 11.25s;
+  -webkit-transition-delay: 11.25s;
+  transition-delay: 11.25s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(77) {
+  background: rgba(0, 0, 0, 0.76);
+  left: 686.66667px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.4s;
+  -o-transition-delay: 11.4s;
+  -webkit-transition-delay: 11.4s;
+  transition-delay: 11.4s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(78) {
+  background: rgba(0, 0, 0, 0.77);
+  left: 784.44444px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.55s;
+  -o-transition-delay: 11.55s;
+  -webkit-transition-delay: 11.55s;
+  transition-delay: 11.55s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(79) {
+  background: rgba(0, 0, 0, 0.78);
+  left: 882.22222px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.7s;
+  -o-transition-delay: 11.7s;
+  -webkit-transition-delay: 11.7s;
+  transition-delay: 11.7s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(80) {
+  background: rgba(0, 0, 0, 0.79);
+  left: 980px;
+  top: 784.44444px;
+  -moz-transition-delay: 11.85s;
+  -o-transition-delay: 11.85s;
+  -webkit-transition-delay: 11.85s;
+  transition-delay: 11.85s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(81) {
+  background: rgba(0, 0, 0, 0.8);
+  left: 100px;
+  top: 882.22222px;
+  -moz-transition-delay: 12s;
+  -o-transition-delay: 12s;
+  -webkit-transition-delay: 12s;
+  transition-delay: 12s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(82) {
+  background: rgba(0, 0, 0, 0.81);
+  left: 197.77778px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.15s;
+  -o-transition-delay: 12.15s;
+  -webkit-transition-delay: 12.15s;
+  transition-delay: 12.15s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(83) {
+  background: rgba(0, 0, 0, 0.82);
+  left: 295.55556px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.3s;
+  -o-transition-delay: 12.3s;
+  -webkit-transition-delay: 12.3s;
+  transition-delay: 12.3s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(84) {
+  background: rgba(0, 0, 0, 0.83);
+  left: 393.33333px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.45s;
+  -o-transition-delay: 12.45s;
+  -webkit-transition-delay: 12.45s;
+  transition-delay: 12.45s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(85) {
+  background: rgba(0, 0, 0, 0.84);
+  left: 491.11111px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.6s;
+  -o-transition-delay: 12.6s;
+  -webkit-transition-delay: 12.6s;
+  transition-delay: 12.6s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(86) {
+  background: rgba(0, 0, 0, 0.85);
+  left: 588.88889px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.75s;
+  -o-transition-delay: 12.75s;
+  -webkit-transition-delay: 12.75s;
+  transition-delay: 12.75s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(87) {
+  background: rgba(0, 0, 0, 0.86);
+  left: 686.66667px;
+  top: 882.22222px;
+  -moz-transition-delay: 12.9s;
+  -o-transition-delay: 12.9s;
+  -webkit-transition-delay: 12.9s;
+  transition-delay: 12.9s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(88) {
+  background: rgba(0, 0, 0, 0.87);
+  left: 784.44444px;
+  top: 882.22222px;
+  -moz-transition-delay: 13.05s;
+  -o-transition-delay: 13.05s;
+  -webkit-transition-delay: 13.05s;
+  transition-delay: 13.05s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(89) {
+  background: rgba(0, 0, 0, 0.88);
+  left: 882.22222px;
+  top: 882.22222px;
+  -moz-transition-delay: 13.2s;
+  -o-transition-delay: 13.2s;
+  -webkit-transition-delay: 13.2s;
+  transition-delay: 13.2s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(90) {
+  background: rgba(0, 0, 0, 0.89);
+  left: 980px;
+  top: 882.22222px;
+  -moz-transition-delay: 13.35s;
+  -o-transition-delay: 13.35s;
+  -webkit-transition-delay: 13.35s;
+  transition-delay: 13.35s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(91) {
+  background: rgba(0, 0, 0, 0.9);
+  left: 100px;
+  top: 980px;
+  -moz-transition-delay: 13.5s;
+  -o-transition-delay: 13.5s;
+  -webkit-transition-delay: 13.5s;
+  transition-delay: 13.5s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(92) {
+  background: rgba(0, 0, 0, 0.91);
+  left: 197.77778px;
+  top: 980px;
+  -moz-transition-delay: 13.65s;
+  -o-transition-delay: 13.65s;
+  -webkit-transition-delay: 13.65s;
+  transition-delay: 13.65s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(93) {
+  background: rgba(0, 0, 0, 0.92);
+  left: 295.55556px;
+  top: 980px;
+  -moz-transition-delay: 13.8s;
+  -o-transition-delay: 13.8s;
+  -webkit-transition-delay: 13.8s;
+  transition-delay: 13.8s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(94) {
+  background: rgba(0, 0, 0, 0.93);
+  left: 393.33333px;
+  top: 980px;
+  -moz-transition-delay: 13.95s;
+  -o-transition-delay: 13.95s;
+  -webkit-transition-delay: 13.95s;
+  transition-delay: 13.95s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(95) {
+  background: rgba(0, 0, 0, 0.94);
+  left: 491.11111px;
+  top: 980px;
+  -moz-transition-delay: 14.1s;
+  -o-transition-delay: 14.1s;
+  -webkit-transition-delay: 14.1s;
+  transition-delay: 14.1s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(96) {
+  background: rgba(0, 0, 0, 0.95);
+  left: 588.88889px;
+  top: 980px;
+  -moz-transition-delay: 14.25s;
+  -o-transition-delay: 14.25s;
+  -webkit-transition-delay: 14.25s;
+  transition-delay: 14.25s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(97) {
+  background: rgba(0, 0, 0, 0.96);
+  left: 686.66667px;
+  top: 980px;
+  -moz-transition-delay: 14.4s;
+  -o-transition-delay: 14.4s;
+  -webkit-transition-delay: 14.4s;
+  transition-delay: 14.4s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(98) {
+  background: rgba(0, 0, 0, 0.97);
+  left: 784.44444px;
+  top: 980px;
+  -moz-transition-delay: 14.55s;
+  -o-transition-delay: 14.55s;
+  -webkit-transition-delay: 14.55s;
+  transition-delay: 14.55s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(99) {
+  background: rgba(0, 0, 0, 0.98);
+  left: 882.22222px;
+  top: 980px;
+  -moz-transition-delay: 14.7s;
+  -o-transition-delay: 14.7s;
+  -webkit-transition-delay: 14.7s;
+  transition-delay: 14.7s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(100) {
+  background: rgba(0, 0, 0, 0.99);
+  left: 980px;
+  top: 980px;
+  -moz-transition-delay: 14.85s;
+  -o-transition-delay: 14.85s;
+  -webkit-transition-delay: 14.85s;
+  transition-delay: 14.85s;
+}
+/* line 33, ../sass/styles.scss */
+div.dot:nth-child(101) {
+  background: black;
+  left: 100px;
+  top: 1077.77778px;
+  -moz-transition-delay: 15s;
+  -o-transition-delay: 15s;
+  -webkit-transition-delay: 15s;
+  transition-delay: 15s;
+}
+
+/* line 46, ../sass/styles.scss */
+body.active .dot {
+  width: 20px;
+  height: 20px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(1) {
+  left: 90px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(2) {
+  left: 187.77778px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(3) {
+  left: 285.55556px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(4) {
+  left: 383.33333px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(5) {
+  left: 481.11111px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(6) {
+  left: 578.88889px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(7) {
+  left: 676.66667px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(8) {
+  left: 774.44444px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(9) {
+  left: 872.22222px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(10) {
+  left: 970px;
+  top: 90px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(11) {
+  left: 90px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(12) {
+  left: 187.77778px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(13) {
+  left: 285.55556px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(14) {
+  left: 383.33333px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(15) {
+  left: 481.11111px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(16) {
+  left: 578.88889px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(17) {
+  left: 676.66667px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(18) {
+  left: 774.44444px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(19) {
+  left: 872.22222px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(20) {
+  left: 970px;
+  top: 187.77778px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(21) {
+  left: 90px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(22) {
+  left: 187.77778px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(23) {
+  left: 285.55556px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(24) {
+  left: 383.33333px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(25) {
+  left: 481.11111px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(26) {
+  left: 578.88889px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(27) {
+  left: 676.66667px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(28) {
+  left: 774.44444px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(29) {
+  left: 872.22222px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(30) {
+  left: 970px;
+  top: 285.55556px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(31) {
+  left: 90px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(32) {
+  left: 187.77778px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(33) {
+  left: 285.55556px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(34) {
+  left: 383.33333px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(35) {
+  left: 481.11111px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(36) {
+  left: 578.88889px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(37) {
+  left: 676.66667px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(38) {
+  left: 774.44444px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(39) {
+  left: 872.22222px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(40) {
+  left: 970px;
+  top: 383.33333px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(41) {
+  left: 90px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(42) {
+  left: 187.77778px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(43) {
+  left: 285.55556px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(44) {
+  left: 383.33333px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(45) {
+  left: 481.11111px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(46) {
+  left: 578.88889px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(47) {
+  left: 676.66667px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(48) {
+  left: 774.44444px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(49) {
+  left: 872.22222px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(50) {
+  left: 970px;
+  top: 481.11111px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(51) {
+  left: 90px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(52) {
+  left: 187.77778px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(53) {
+  left: 285.55556px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(54) {
+  left: 383.33333px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(55) {
+  left: 481.11111px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(56) {
+  left: 578.88889px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(57) {
+  left: 676.66667px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(58) {
+  left: 774.44444px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(59) {
+  left: 872.22222px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(60) {
+  left: 970px;
+  top: 578.88889px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(61) {
+  left: 90px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(62) {
+  left: 187.77778px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(63) {
+  left: 285.55556px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(64) {
+  left: 383.33333px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(65) {
+  left: 481.11111px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(66) {
+  left: 578.88889px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(67) {
+  left: 676.66667px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(68) {
+  left: 774.44444px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(69) {
+  left: 872.22222px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(70) {
+  left: 970px;
+  top: 676.66667px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(71) {
+  left: 90px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(72) {
+  left: 187.77778px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(73) {
+  left: 285.55556px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(74) {
+  left: 383.33333px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(75) {
+  left: 481.11111px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(76) {
+  left: 578.88889px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(77) {
+  left: 676.66667px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(78) {
+  left: 774.44444px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(79) {
+  left: 872.22222px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(80) {
+  left: 970px;
+  top: 774.44444px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(81) {
+  left: 90px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(82) {
+  left: 187.77778px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(83) {
+  left: 285.55556px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(84) {
+  left: 383.33333px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(85) {
+  left: 481.11111px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(86) {
+  left: 578.88889px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(87) {
+  left: 676.66667px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(88) {
+  left: 774.44444px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(89) {
+  left: 872.22222px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(90) {
+  left: 970px;
+  top: 872.22222px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(91) {
+  left: 90px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(92) {
+  left: 187.77778px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(93) {
+  left: 285.55556px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(94) {
+  left: 383.33333px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(95) {
+  left: 481.11111px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(96) {
+  left: 578.88889px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(97) {
+  left: 676.66667px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(98) {
+  left: 774.44444px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(99) {
+  left: 872.22222px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(100) {
+  left: 970px;
+  top: 970px;
+}
+/* line 50, ../sass/styles.scss */
+body.active .dot:nth-child(101) {
+  left: 90px;
+  top: 1067.77778px;
+}
